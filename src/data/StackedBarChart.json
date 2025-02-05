@@ -1,0 +1,265 @@
+{
+    "Austria": {
+        "Actual evapotranspiration": 43100.0,
+        "Actual external inflow from neighbouring territories": 29300.0,
+        "Internal flow": 56700.0,
+        "Total actual outflow": 86000.0,
+        "Precipitation": 99800.0
+    },
+    "Belgium": {
+        "Actual evapotranspiration": 15745.4,
+        "Actual external inflow from neighbouring territories": 10563.07,
+        "Internal flow": 11287.67,
+        "Total actual outflow": 18980.7,
+        "Precipitation": 27264.03,
+        "Renewable freshwater resources": 25010.83
+    },
+    "Bulgaria": {
+        "Actual evapotranspiration": 57460.0,
+        "Actual external inflow from neighbouring territories": 83957.0,
+        "Internal flow": 15884.0,
+        "Total actual outflow": 102350.0,
+        "Precipitation": 73344.0,
+        "Renewable freshwater resources": 99841.0
+    },
+    "Switzerland": {
+        "Actual evapotranspiration": 21382.0,
+        "Actual external inflow from neighbouring territories": 12560.0,
+        "Internal flow": 39825.0,
+        "Total actual outflow": 53140.0,
+        "Precipitation": 61207.0,
+        "Renewable freshwater resources": 52385.0
+    },
+    "Cyprus": {
+        "Actual evapotranspiration": 2495.55,
+        "Actual external inflow from neighbouring territories": 0.0,
+        "Internal flow": 373.7,
+        "Total actual outflow": 60.73,
+        "Precipitation": 2869.25,
+        "Renewable freshwater resources": 373.7
+    },
+    "Czechia": {
+        "Actual evapotranspiration": 39082.0,
+        "Actual external inflow from neighbouring territories": 829.0,
+        "Internal flow": 14372.0,
+        "Total actual outflow": 14588.0,
+        "Precipitation": 53454.0,
+        "Renewable freshwater resources": 15201.0
+    },
+    "Germany": {
+        "Actual evapotranspiration": 205000.0,
+        "Actual external inflow from neighbouring territories": 69000.0,
+        "Internal flow": 104000.0,
+        "Total actual outflow": 166000.0,
+        "Precipitation": 309000.0,
+        "Renewable freshwater resources": 173000.0
+    },
+    "Denmark": {
+        "Actual evapotranspiration": 22145.0,
+        "Actual external inflow from neighbouring territories": 0.0,
+        "Internal flow": 16340.0,
+        "Precipitation": 38485.0,
+        "Renewable freshwater resources": 16340.0
+    },
+    "Estonia": {
+        "Internal flow": 12346.6,
+        "Precipitation": 29017.7,
+        "Renewable freshwater resources": 12346.6
+    },
+    "Greece": {
+        "Actual evapotranspiration": 55000.0,
+        "Actual external inflow from neighbouring territories": 12000.0,
+        "Internal flow": 60000.0,
+        "Precipitation": 115000.0,
+        "Renewable freshwater resources": 72000.0
+    },
+    "Spain": {
+        "Actual evapotranspiration": 222358.18,
+        "Internal flow": 100396.26,
+        "Precipitation": 322754.44,
+        "Renewable freshwater resources": 100396.26
+    },
+    "Finland": {
+        "Actual evapotranspiration": 115000.0,
+        "Actual external inflow from neighbouring territories": 3200.0,
+        "Internal flow": 107000.0,
+        "Total actual outflow": 110000.0,
+        "Precipitation": 222000.0,
+        "Renewable freshwater resources": 110000.0
+    },
+    "France": {
+        "Actual evapotranspiration": 312003.27,
+        "Actual external inflow from neighbouring territories": 11000.0,
+        "Internal flow": 200860.49,
+        "Total actual outflow": 168000.0,
+        "Precipitation": 512863.76,
+        "Renewable freshwater resources": 206236.09
+    },
+    "Croatia": {
+        "Actual evapotranspiration": 39275.0,
+        "Actual external inflow from neighbouring territories": 93782.95,
+        "Internal flow": 24529.81,
+        "Total actual outflow": 118312.76,
+        "Precipitation": 63804.9,
+        "Renewable freshwater resources": 118312.76
+    },
+    "Hungary": {
+        "Actual evapotranspiration": 50592.0,
+        "Actual external inflow from neighbouring territories": 91500.0,
+        "Internal flow": 5580.0,
+        "Total actual outflow": 96850.0,
+        "Precipitation": 56172.0
+    },
+    "Ireland": {
+        "Actual evapotranspiration": 38182.42,
+        "Actual external inflow from neighbouring territories": 3526.07,
+        "Internal flow": 51308.2,
+        "Precipitation": 89490.62,
+        "Renewable freshwater resources": 54834.27
+    },
+    "Italy": {
+        "Actual evapotranspiration": 151814.76,
+        "Internal flow": 133454.77,
+        "Precipitation": 285269.53
+    },
+    "Lithuania": {
+        "Actual evapotranspiration": 30713.44,
+        "Actual external inflow from neighbouring territories": 8521.66,
+        "Internal flow": 14017.61,
+        "Total actual outflow": 22627.48,
+        "Precipitation": 44731.06,
+        "Renewable freshwater resources": 22539.27
+    },
+    "Luxembourg": {
+        "Actual evapotranspiration": 1124.9,
+        "Actual external inflow from neighbouring territories": 739.0,
+        "Internal flow": 905.1,
+        "Total actual outflow": 1600.0,
+        "Precipitation": 2030.0,
+        "Renewable freshwater resources": 1644.1
+    },
+    "Latvia": {
+        "Actual evapotranspiration": 23573.0,
+        "Actual external inflow from neighbouring territories": 16992.0,
+        "Internal flow": 19647.0,
+        "Total actual outflow": 32934.0,
+        "Precipitation": 43220.0,
+        "Renewable freshwater resources": 36639.0
+    },
+    "North Macedonia": {
+        "Actual external inflow from neighbouring territories": 1014.0,
+        "Total actual outflow": 6322.0,
+        "Precipitation": 19533.0
+    },
+    "Malta": {
+        "Actual evapotranspiration": 88.74,
+        "Actual external inflow from neighbouring territories": 0.0,
+        "Internal flow": 82.97,
+        "Total actual outflow": 54.13,
+        "Precipitation": 171.71,
+        "Renewable freshwater resources": 82.97
+    },
+    "Netherlands": {
+        "Actual evapotranspiration": 22311.0,
+        "Actual external inflow from neighbouring territories": 78355.0,
+        "Internal flow": 9706.0,
+        "Total actual outflow": 84350.0,
+        "Precipitation": 32017.0,
+        "Renewable freshwater resources": 88061.0
+    },
+    "Norway": {
+        "Actual evapotranspiration": 188815.39,
+        "Actual external inflow from neighbouring territories": 6532.47,
+        "Internal flow": 365333.6,
+        "Total actual outflow": 368529.8,
+        "Precipitation": 554148.98,
+        "Renewable freshwater resources": 371866.06
+    },
+    "Poland": {
+        "Actual evapotranspiration": 150796.3,
+        "Actual external inflow from neighbouring territories": 7504.0,
+        "Internal flow": 50319.2,
+        "Total actual outflow": 57823.2,
+        "Precipitation": 201115.5,
+        "Renewable freshwater resources": 57823.2
+    },
+    "Portugal": {
+        "Actual evapotranspiration": 43571.0,
+        "Actual external inflow from neighbouring territories": 35000.0,
+        "Internal flow": 38593.0,
+        "Total actual outflow": 34000.0,
+        "Precipitation": 82164.0,
+        "Renewable freshwater resources": 73593.0
+    },
+    "Romania": {
+        "Actual evapotranspiration": 119599.0,
+        "Actual external inflow from neighbouring territories": 284.0,
+        "Internal flow": 39285.0,
+        "Precipitation": 158884.0,
+        "Renewable freshwater resources": 39569.0
+    },
+    "Serbia": {
+        "Actual evapotranspiration": 44093.06,
+        "Actual external inflow from neighbouring territories": 153084.03,
+        "Internal flow": 13484.68,
+        "Total actual outflow": 166568.71,
+        "Precipitation": 57577.74,
+        "Renewable freshwater resources": 166568.71
+    },
+    "Sweden": {
+        "Actual evapotranspiration": 169512.0,
+        "Actual external inflow from neighbouring territories": 14677.8,
+        "Internal flow": 170330.2,
+        "Total actual outflow": 194852.2,
+        "Precipitation": 349790.3,
+        "Renewable freshwater resources": 194749.5
+    },
+    "Slovenia": {
+        "Actual evapotranspiration": 13026.0,
+        "Actual external inflow from neighbouring territories": 15074.0,
+        "Internal flow": 16422.0,
+        "Total actual outflow": 30371.0,
+        "Precipitation": 29448.0,
+        "Renewable freshwater resources": 31496.0
+    },
+    "Slovakia": {
+        "Actual evapotranspiration": 25531.0,
+        "Actual external inflow from neighbouring territories": 66086.0,
+        "Internal flow": 14081.0,
+        "Total actual outflow": 78150.0,
+        "Precipitation": 39612.0,
+        "Renewable freshwater resources": 80192.0
+    },
+    "Turkey": {
+        "Actual evapotranspiration": 275700.0,
+        "Actual external inflow from neighbouring territories": 6900.0,
+        "Internal flow": 173470.0,
+        "Total actual outflow": 178000.0,
+        "Precipitation": 449170.0,
+        "Renewable freshwater resources": 180370.0
+    },
+    "United Kingdom": {
+        "Actual evapotranspiration": 127289.5,
+        "Actual external inflow from neighbouring territories": 6454.0,
+        "Internal flow": 161369.3,
+        "Total actual outflow": 171014.7,
+        "Precipitation": 287606.9,
+        "Renewable freshwater resources": 172861.3
+    },
+    "Bosnia and Herzegovina": {
+        "Actual evapotranspiration": 25940.0,
+        "Actual external inflow from neighbouring territories": 2000.0,
+        "Internal flow": 29922.0,
+        "Total actual outflow": 31922.0,
+        "Precipitation": 55863.0,
+        "Renewable freshwater resources": 31922.0
+    },
+    "Kosovo*": {
+        "Actual evapotranspiration": 477.8,
+        "Actual external inflow from neighbouring territories": 10.5,
+        "Internal flow": 285.3,
+        "Total actual outflow": 114.5,
+        "Precipitation": 763.1,
+        "Renewable freshwater resources": 295.8
+    }
+}
