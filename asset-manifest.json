@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Chamber-of-Secrets---Final/static/css/main.846ccf1d.css",
-    "main.js": "/Chamber-of-Secrets---Final/static/js/main.95407e1c.js",
+    "main.js": "/Chamber-of-Secrets---Final/static/js/main.de8d6cbf.js",
     "static/media/Background.svg": "/Chamber-of-Secrets---Final/static/media/Background.9596a98ac463f42b2b227a690d5a0b88.svg",
     "static/media/brand-icons.svg": "/Chamber-of-Secrets---Final/static/media/brand-icons.6729d29753e000c17489.svg",
     "static/media/icons.svg": "/Chamber-of-Secrets---Final/static/media/icons.62d9dae4e0040e81c980.svg",
@@ -23,10 +23,10 @@
     "static/media/outline-icons.woff2": "/Chamber-of-Secrets---Final/static/media/outline-icons.687a4990ea22bb1a49d4.woff2",
     "index.html": "/Chamber-of-Secrets---Final/index.html",
     "main.846ccf1d.css.map": "/Chamber-of-Secrets---Final/static/css/main.846ccf1d.css.map",
-    "main.95407e1c.js.map": "/Chamber-of-Secrets---Final/static/js/main.95407e1c.js.map"
+    "main.de8d6cbf.js.map": "/Chamber-of-Secrets---Final/static/js/main.de8d6cbf.js.map"
   },
   "entrypoints": [
     "static/css/main.846ccf1d.css",
-    "static/js/main.95407e1c.js"
+    "static/js/main.de8d6cbf.js"
   ]
 }
