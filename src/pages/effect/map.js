@@ -42,9 +42,9 @@ function Map() {
       .domain(values)
       .range(d3.schemeGreens[9]);
 
-    d3.json("/europe.geojson")
+    d3.json(process.env.PUBLIC_URL + "/europe.geojson")
       .then(geoData => {
-        console.log("First feature properties:", geoData.features[0].properties);
+        console.log("GeoJSON loaded:", geoData);
         
         svg.selectAll("path")
           .data(geoData.features)
