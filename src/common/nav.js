@@ -34,7 +34,7 @@ const Container = styled.div`
   justify-content: space-between;
   padding: 0px 15vw;
   width: 100%;
-  height: 9vh;
+  height: 100px;
   background-color: #F4EDED;
   z-index: 100;
 `;
