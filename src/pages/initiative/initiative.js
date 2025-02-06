@@ -6,6 +6,7 @@ import Banner from '../../common/banner';
 import Header from '../../common/header';
 import Alluvial from './alluvial';
 import BarChart from './barChart';
+import LineChart from './lineChart';
 
 function Initiative() {
   return (
@@ -21,6 +22,10 @@ function Initiative() {
             Electricity production capacities for renewables and wastes 
         </Header>
         <BarChart />
+        <Header>
+            Contribution to the international 100bn USD commitment on climate related expending (source: DG CLIMA, EIONET)
+        </Header>
+        <LineChart />
     </Container>
     <Footer />
     </>

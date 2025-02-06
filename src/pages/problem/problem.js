@@ -13,7 +13,7 @@ function Problem() {
     <Container>
         <Banner text={'Problem'} />
         <Header>
-            Top 10 Annual CO₂ Emissions Per Capita
+          Air emissions intensities by NACE Rev. 2 activity
         </Header>
         <RadarChart />
     </Container>
