@@ -5,13 +5,17 @@
   "dependencies": {
     "cra-template": "1.2.0",
     "d3": "^7.9.0",
+    "d3-composite-projections": "^1.4.0",
+    "d3-geo": "^3.1.1",
+    "d3-sankey": "^0.12.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^7.1.5",
     "react-scripts": "5.0.1",
     "semantic-ui-css": "^2.5.0",
     "semantic-ui-react": "^2.1.5",
-    "styled-components": "^6.1.14"
+    "styled-components": "^6.1.14",
+    "topojson-client": "^3.1.0"
   },
   "scripts": {
     "start": "react-scripts start",

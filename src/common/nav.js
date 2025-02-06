@@ -19,8 +19,8 @@ function Nav() {
         <CustomLink to='/Effect'>
           Effect
         </CustomLink>
-        <CustomLink to='/Impact'>
-          Impact
+        <CustomLink to='/initiative'>
+          Initiative
         </CustomLink>
       </LinkContaienr>
     </Container>
@@ -36,6 +36,7 @@ const Container = styled.div`
   width: 100%;
   height: 9vh;
   background-color: #F4EDED;
+  z-index: 100;
 `;
 
 const Image = styled.img`

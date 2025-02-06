@@ -4,6 +4,7 @@ import PageNotFound from './pages/page-not-found/page_not_found';
 import Problem from './pages/problem/problem';
 import Causes from './pages/causes/causes';
 import Effect from './pages/effect/effect';
+import Initiative from './pages/initiative/initiative';
 
 export const router = createBrowserRouter(
   [
@@ -25,6 +26,11 @@ export const router = createBrowserRouter(
     {
       path: '/Effect',
       element: <Effect />,
+      errorElement: <PageNotFound />,
+    },
+    {
+      path: '/initiative',
+      element: <Initiative />,
       errorElement: <PageNotFound />,
     },
   ],

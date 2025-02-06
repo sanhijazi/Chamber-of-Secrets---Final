@@ -4,23 +4,23 @@ import Nav from '../../common/nav';
 import Footer from '../../common/footer';
 import Banner from '../../common/banner';
 import Header from '../../common/header';
-import StackedBarChart from './stackedBarChart';
-import Map from './map';
+import Alluvial from './alluvial';
+import BarChart from './barChart';
 
-function Effect() {
+function Initiative() {
   return (
     <>
     <Nav />
     <Container>
-        <Banner text={'Effect'} />
+        <Banner text={'Initiative'}/>
         <Header>
-            Water resources: long-term annual average
+            Air emissions intensities by NACE Rev. 2 activity
         </Header>
-        <StackedBarChart />
+        <Alluvial />
         <Header>
-            Land use overview by NUTS 2 region 
+            Electricity production capacities for renewables and wastes 
         </Header>
-        <Map />
+        <BarChart />
     </Container>
     <Footer />
     </>
@@ -30,4 +30,4 @@ const Container = styled.div`
     min-height: 100vh;
 `;
 
-export default Effect
+export default Initiative
