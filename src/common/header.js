@@ -10,7 +10,7 @@ function Header({children}) {
 }
 
 const Container = styled.div`
-    padding: 20px;
+    padding: 20px 100px;
     color: #000;
     text-align: center;
     font-family: Oswald;

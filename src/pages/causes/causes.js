@@ -6,6 +6,7 @@ import Banner from '../../common/banner';
 import Header from '../../common/header';
 import HeatMap from './heatmap';
 import BarChart from './barChart';
+import LollipopChart from './lollipopChart';
 
 function Causes() {
   return (
@@ -13,6 +14,10 @@ function Causes() {
     <Nav />
     <Container>
         <Banner text={'Causes'} />
+        <Header>
+            Average CO2 emissions per km from new passenger cars
+        </Header>
+        <LollipopChart />
         <Header>
             Final energy consumption in transport by type of fuel
         </Header>
