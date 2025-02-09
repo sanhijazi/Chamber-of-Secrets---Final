@@ -88,7 +88,7 @@ function StackedBarChart() {
         const value = (d[1] - d[0]).toFixed(2);
         tooltip
           .style("visibility", "visible")
-          .html(`${category}<br/>Value: ${value}`)
+          .html(`${category}<br/>Value: ${value} million m³`)
           .style("left", (event.pageX + 10) + "px")
           .style("top", (event.pageY - 10) + "px");
       })
@@ -106,7 +106,8 @@ function StackedBarChart() {
       .attr("height", d => yScale(d[0]) - yScale(d[1]));
 
     const xAxis = d3.axisBottom(xScale);
-    const yAxis = d3.axisLeft(yScale);
+    const yAxis = d3.axisLeft(yScale)
+      .tickFormat(d => `${d} million m³`);
 
     svg.append("g")
       .attr("transform", `translate(0,${height - margin.bottom})`)
@@ -120,6 +121,15 @@ function StackedBarChart() {
     svg.append("g")
       .attr("transform", `translate(${margin.left},0)`)
       .call(yAxis);
+
+    // Add y-axis label
+    svg.append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 0)
+      .attr("x", 0 - (height / 2))
+      .attr("dy", "1em")
+      .style("text-anchor", "middle")
+      .text("Water Resources (million m³)");
 
     const legend = svg.append("g")
       .attr("font-family", "sans-serif")

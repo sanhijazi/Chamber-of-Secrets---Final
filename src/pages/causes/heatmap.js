@@ -10,7 +10,13 @@ function HeatMap() {
   const svgRef = useRef();
   const width = 900;
   const height = 500;
-  const margin = { top: 60, right: 30, bottom: 30, left: 200 };
+  const margin = { top: 60, right: 130, bottom: 30, left: 200 };
+
+  const allValues = Object.values(data).flatMap(country => 
+    Object.values(country).map(value => Number(value))
+  );
+  const minValue = Math.min(...allValues);
+  const maxValue = Math.max(...allValues);
 
   const years = Array.from(new Set(
     Object.values(data).flatMap(country => Object.keys(country))
@@ -35,13 +41,50 @@ function HeatMap() {
     const cellHeight = Math.min(40, (height - margin.top - margin.bottom) / selectedCountries.length);
 
     const colorScale = d3.scaleSequential()
-      .domain([0, d3.max(selectedCountries.flatMap(country => 
-        Object.values(data[country]).map(value => Number(value))
-      ))])
+      .domain([minValue, maxValue])
       .interpolator(d3.interpolateYlOrRd);
 
     const g = svg.append('g')
       .attr('transform', `translate(${margin.left},${margin.top})`);
+
+    const legendWidth = 20;
+    const legendHeight = height - margin.top - margin.bottom;
+
+    const legendScale = d3.scaleLinear()
+      .range([legendHeight, 0])
+      .domain([minValue, maxValue]);
+
+    const legendAxis = d3.axisRight(legendScale)
+      .ticks(5)
+      .tickFormat(d3.format('.2f'));
+
+    const legend = svg.append('g')
+      .attr('transform', `translate(${width - margin.right + 10},${margin.top})`);
+
+    const legendGradient = legend.append('defs')
+      .append('linearGradient')
+      .attr('id', 'legend-gradient')
+      .attr('x1', '0%')
+      .attr('y1', '100%')
+      .attr('x2', '0%')
+      .attr('y2', '0%');
+
+    legendGradient.selectAll('stop')
+      .data(colorScale.ticks().map((t, i, n) => ({
+        offset: `${100 * i / (n.length - 1)}%`,
+        color: colorScale(t)
+      })))
+      .enter().append('stop')
+      .attr('offset', d => d.offset)
+      .attr('stop-color', d => d.color);
+
+    legend.append('rect')
+      .attr('width', legendWidth)
+      .attr('height', legendHeight)
+      .style('fill', 'url(#legend-gradient)');
+
+    legend.append('g')
+      .call(legendAxis);
 
     const tooltip = d3.select('body').append('div')
       .attr('class', 'tooltip')
@@ -117,7 +160,7 @@ function HeatMap() {
         tooltip.html(`
           <strong>${d.country}</strong><br/>
           Year: ${d.year}<br/>
-          Value: ${d.value.toLocaleString()}
+          Value: ${d.value.toLocaleString()} tones
         `)
           .style('left', (event.pageX + 10) + 'px')
           .style('top', (event.pageY - 28) + 'px');

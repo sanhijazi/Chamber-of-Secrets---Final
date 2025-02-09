@@ -146,7 +146,7 @@ function RadarChart() {
             .attr('r', 8);
           tooltip
             .style('visibility', 'visible')
-            .html(`${country}<br>${d.year}: ${d.value}`)
+            .html(`${country}<br>${d.year}: ${d.value.toFixed(2)} g/€`)
             .style('left', `${event.pageX + 10}px`)
             .style('top', `${event.pageY - 10}px`);
         })
@@ -204,9 +204,11 @@ function RadarChart() {
             onChange={(e, { value }) => setSelectedCountries(value)}
         />
         <Text>
-            You Can add more countreis by selecting them from the dropdown
+            You can add more countries by selecting them from the dropdown
+            <UnitLabel>Unit: Grams per Euro (g/€)</UnitLabel>
+            <UnitLabel>which indicates how much greenhouse gas (GHG) is emitted for each euro of economic activity.</UnitLabel>
         </Text>
-        </LeftSection>
+      </LeftSection>
     </Container>
   );
 }
@@ -222,7 +224,7 @@ const Container = styled.div`
 const LeftSection = styled.div`
     padding: 50px;
     width: 400px;
-    height: 400px;
+    min-height: 400px;
     border-radius: 15px;
     background: #F4EDED;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -247,4 +249,13 @@ const Text = styled.div`
     font-weight: 600;
     line-height: normal;
 `;
+
+const UnitLabel = styled.div`
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: italic;
+`;
+
 export default RadarChart;

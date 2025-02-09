@@ -17,7 +17,12 @@ function Nav() {
   return (
     <Container>
     <Link to='/'>
+      <FlexContainer>
       <Image src={Logo} alt='logo' />
+      <LogoText>
+        Chamber of Secrets
+      </LogoText>
+      </FlexContainer>
     </Link>
       <LinkContaienr>
         <CustomLink to='/Problem' >
@@ -68,6 +73,22 @@ const CustomLink = styled(Link)`
   font-weight: 600;
   line-height: normal;
   text-transform: uppercase;
+`
+
+const LogoText = styled.div`
+  font-family: Oswald;
+  color: #000;
+  width: 130px;
+  line-height: 30px;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+`
+
+const FlexContainer = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 10px;
 `
 
 export default Nav;

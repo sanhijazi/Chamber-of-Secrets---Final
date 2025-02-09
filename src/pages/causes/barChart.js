@@ -110,7 +110,7 @@ function BarChart() {
           .style('visibility', 'visible')
           .html(`
             <strong>${d.country}</strong><br/>
-            Value: ${d3.format(",")(Math.round(d.value))}
+            Value: ${d3.format(",")(Math.round(d.value))} tons
           `)
           .style('left', (event.pageX + 10) + 'px')
           .style('top', (event.pageY - 10) + 'px');
@@ -148,7 +148,7 @@ function BarChart() {
       .style('opacity', 0)
       .call(d3.axisBottom(x)
         .ticks(5)
-        .tickFormat(d3.format(","))
+        .tickFormat(d => `${d3.format(",")(d)} tons`)
         .tickSize(-height + margin.top + margin.bottom))
       .call(g => g.select('.domain').remove());
 
@@ -235,7 +235,6 @@ const Text = styled.div`
     line-height: normal;
 `;
 
-// Update tooltip styling
 const TooltipStyle = styled.div`
   position: absolute;
   visibility: hidden;

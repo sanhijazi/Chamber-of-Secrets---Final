@@ -150,7 +150,7 @@ function Alluvial() {
         tooltip.html(`
           <strong>From:</strong> ${d.source.name}<br/>
           <strong>To:</strong> ${d.target.name}<br/>
-          <strong>Value:</strong> ${d.value.toFixed(2)}
+          <strong>Value:</strong> ${d.value.toFixed(2)} million euro
         `)
           .style('left', (event.pageX + 10) + 'px')
           .style('top', (event.pageY - 28) + 'px');
@@ -190,8 +190,8 @@ function Alluvial() {
         
         tooltip.html(`
           <strong>${d.name}</strong><br/>
-          <strong>Incoming:</strong> ${incomingValue.toFixed(2)}<br/>
-          <strong>Outgoing:</strong> ${outgoingValue.toFixed(2)}
+          <strong>Incoming:</strong> ${incomingValue.toFixed(2)} million euro<br/>
+          <strong>Outgoing:</strong> ${outgoingValue.toFixed(2)} million euro
         `)
           .style('left', (event.pageX + 10) + 'px')
           .style('top', (event.pageY - 28) + 'px');
