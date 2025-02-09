@@ -62,9 +62,7 @@ function BarChart() {
       .sort((a, b) => b.value - a.value)
       .slice(0, 10);
 
-    const colorScale = d3.scaleSequential()
-      .domain([d3.min(yearData, d => d.value), d3.max(yearData, d => d.value)])
-      .interpolator(d3.interpolateViridis);
+    const colorScale = () => '#3498db'; // A nice medium blue color
 
     const x = d3.scaleBand()
       .domain(yearData.map(d => d.country))
@@ -97,7 +95,7 @@ function BarChart() {
           .attr('width', x.bandwidth())
           .attr('y', y(0))
           .attr('height', 0)
-          .attr('fill', d => colorScale(d.value))
+          .attr('fill', colorScale)
           .attr('opacity', 0.8)
           .call(enter => enter
             .transition()
@@ -113,7 +111,7 @@ function BarChart() {
             .duration(1000)
             .attr('y', d => y(d.value))
             .attr('height', d => height - margin.top - margin.bottom - y(d.value))
-            .attr('fill', d => colorScale(d.value))
+            .attr('fill', colorScale)
           ),
         exit => exit
           .call(exit => exit

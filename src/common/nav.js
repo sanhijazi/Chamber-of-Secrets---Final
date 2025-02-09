@@ -32,10 +32,10 @@ function Nav() {
           Causes
         </CustomLink>
         <CustomLink to='/Effect'>
-          Effect
+          Effects
         </CustomLink>
         <CustomLink to='/initiative'>
-          Initiative
+          Initiatives
         </CustomLink>
       </LinkContaienr>
     </Container>

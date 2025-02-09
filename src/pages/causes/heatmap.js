@@ -48,7 +48,8 @@ function HeatMap() {
       .attr('transform', `translate(${margin.left},${margin.top})`);
 
     const legendWidth = 20;
-    const legendHeight = height - margin.top - margin.bottom;
+    // const legendHeight = height - margin.top - margin.bottom;
+    const legendHeight = 200;
 
     const legendScale = d3.scaleLinear()
       .range([legendHeight, 0])

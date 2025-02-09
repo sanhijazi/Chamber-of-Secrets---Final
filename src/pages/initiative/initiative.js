@@ -16,7 +16,7 @@ function Initiative() {
     <Container>
         <Banner text={'Initiative'}/>
         <Header>
-            Air emissions intensities by NACE Rev. 2 activity
+            Air emissions intensities by Countries
         </Header>
         <Description>
             This represents the energy taxes collected across various economic activities in Europe,
@@ -34,7 +34,7 @@ function Initiative() {
         </Description>
         <BarChart />
         <Header>
-            Contribution to the international 100bn USD commitment on climate related expending (source: DG CLIMA, EIONET)
+            Contribution to the international 100bn USD commitment on climate related expending
         </Header>
         <Description>
             This data tracks the annual contributions to the international $100bn USD climate funding

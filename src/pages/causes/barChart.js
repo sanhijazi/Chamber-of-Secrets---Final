@@ -48,9 +48,9 @@ function BarChart() {
       .sort((a, b) => b.value - a.value)
       .slice(0, 10);
 
-    const colorScale = d3.scaleSequential()
+    const colorScale = d3.scaleLinear()
       .domain([d3.min(yearData, d => d.value), d3.max(yearData, d => d.value)])
-      .interpolator(d3.interpolateViridis);
+      .range(['#E6F2FF', '#0077BE']); // Light blue to deeper blue
 
     const x = d3.scaleLinear()
       .domain([0, d3.max(yearData, d => d.value)])

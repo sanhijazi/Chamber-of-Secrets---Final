@@ -6,7 +6,15 @@ import styled from 'styled-components';
 import alluvialData from '../../data/Alluvial.json';
 
 function Alluvial() {
-  const [selectedYear, setSelectedYear] = useState('2022');
+  const availableYears = Object.keys(alluvialData);
+  
+  const yearOptions = availableYears.map(year => ({
+    key: year, 
+    text: year, 
+    value: year 
+  }));
+
+  const [selectedYear, setSelectedYear] = useState(availableYears[availableYears.length - 1]);
   const svgRef = useRef();
   const width = 900;
   const height = 500;
@@ -102,9 +110,9 @@ function Alluvial() {
     const colorScale = d3.scaleOrdinal()
       .domain(['country', 'tax', 'sector'])
       .range([
-        '#69b3a2',
-        '#404080',
-        '#a53253'
+        '#4287f5',  // Single blue color for all elements
+        '#4287f5', 
+        '#4287f5'
       ]);
 
     const svg = d3.select(svgRef.current);
@@ -235,7 +243,7 @@ function Alluvial() {
           placeholder="Select Year"
           fluid
           selection
-          options={[{ key: '2022', text: '2022', value: '2022' }]}
+          options={yearOptions}
           value={selectedYear}
           onChange={(e, { value }) => setSelectedYear(value)}
         />

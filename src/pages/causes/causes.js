@@ -18,7 +18,7 @@ function Causes() {
             Average CO2 emissions per km from new passenger cars
         </Header>
         <Description>
-          This dataset represents the average CO₂ emissions (g/km) of new passenger 
+          Represent the average CO₂ emissions (g/km) of new passenger 
           cars per year. Until 2019, emissions were measured using the NEDC protocol, transitioning 
           to both NEDC and WLTP in 2020, and solely WLTP from 2021. The lollipop chart visualizes 
           trends and shifts in reported emissions over time.
@@ -28,7 +28,7 @@ function Causes() {
             Final energy consumption in transport by type of fuel
         </Header>
         <Description>
-          This dataset represents final energy consumption in transport
+          Visualizing final energy consumption in transport
           across various modes, including road, rail, domestic aviation, and navigation.
           It excludes international aviation, marine bunkers, and energy use in transport hubs.
           The heatmap visualizes energy distribution and trends across these transport sectors.
@@ -38,10 +38,8 @@ function Causes() {
             Management of waste excluding major mineral waste, by waste management operations
         </Header>
         <Description>
-          This dataset represents the management of waste (excluding major mineral waste)
-          across various European countries. It tracks annual waste treatment volumes (in tonnes)
-          by different management operations. The data includes imputed values, breaks in time series,
-          and variations in definitions.
+          The management of waste across various European countries. It tracks annual waste treatment volumes (in tonnes)
+          by different management operations.
         </Description>
         <BarChart />
     </Container>

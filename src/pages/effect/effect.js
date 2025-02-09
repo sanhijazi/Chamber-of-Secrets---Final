@@ -19,16 +19,15 @@ function Effect() {
         </Header>
         <Description>
           This visual represents freshwater resources,
-          including evapotranspiration, internal flow, external inflow,
-          and total availability. It shows water movement within and across territories.
+          It shows water movement within and across territories.
           The stacked bar chart highlights the distribution and balance of these components.
         </Description>
         <StackedBarChart />
         <Header>
-            Land use overview by NUTS 2 region 
+            Land use overview by Region 
         </Header>
         <Description>
-          This represents land use by NUTS 2 regions across Europe, measured in square kilometers. It
+          This represents land use by regions across Europe, measured in square kilometers. It
           covers various regions in EU countries, showing total land area over time. The map projection will
           visualize the distribution and changes in land use across these regions.
         </Description>

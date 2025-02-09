@@ -14,7 +14,7 @@ function Problem() {
     <Container>
         <Banner text={'Problem'} />
         <Header>
-          Air emissions intensities by NACE Rev. 2 activity
+          Air emissions intensities by Country
         </Header>
         <Description>
           The data shows a decreasing trend in greenhouse gas emissions per euro of economic 

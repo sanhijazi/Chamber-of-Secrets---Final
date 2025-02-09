@@ -45,13 +45,13 @@ function Home() {
             description: "Explore the human activities and industrial processes that contribute to global warming and environmental degradation."
         },
         {
-            title: 'Effect',
+            title: 'Effects',
             path: '/effect',
             image: "https://images.pexels.com/photos/1198507/pexels-photo-1198507.jpeg",
             description: "Discover the wide-ranging impacts of climate change on ecosystems, weather patterns, and human societies."
         },
         {
-            title: 'Initiative',
+            title: 'Initiatives',
             path: '/initiative',
             image: "https://images.pexels.com/photos/356036/pexels-photo-356036.jpeg",
             description: "Learn about global and local efforts to mitigate climate change and promote sustainable practices."

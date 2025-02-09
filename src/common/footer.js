@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 function Footer() {
   return (
-    <Container>This website was created with love!</Container>
+    <Container>This website was created with love by the team of the Chamber of Secrets</Container>
   )
 }
 
