@@ -7,6 +7,7 @@ import Header from '../../common/header';
 import StackedBarChart from './stackedBarChart';
 import Map from './map';
 import Description from '../../common/description';
+import DumbbleChart from './dumbbleChart';
 
 function Effect() {
   return (
@@ -32,6 +33,13 @@ function Effect() {
           visualize the distribution and changes in land use across these regions.
         </Description>
         <Map />
+        <Header>
+          Animal populations by Countries
+        </Header>
+        <Description>
+          This dumbbell chart represents how animal populations have changed over time in different countries across Europe.
+        </Description>
+        <DumbbleChart />
     </Container>
     <Footer />
     </>
